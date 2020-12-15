@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="vieport" content="width=device-width, initial-scale=1">
+	<title>Pengenalan Bootstrap</title>
+	<!-- Menyisipkan Bootstrap-->
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+<body>
+	<div>
+		<h1 align="center">Belajar Bootstrap</h1>
+	</div>
+	<nav>
+		<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+			<ul class="navbar-nav">
+				<li class="nav-item active">
+					<a class="nav-link" href="webstatis.html">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#gambar">Gambar</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#biodata">Biodata</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link disabled" href="#">Disabled</a>
+				</li>
+			</ul>
+		</nav>
+	</nav>
+	<div class="container">
+		<div class="jumbotron">
+			<h1>Belajar Bootstrap</h1>
+			<p>Bootstrap adalah framework untuk membuat responsif website menggunakan HTML, CSS, and JS</p><br>
+			<p>Mata Kuliah Desain dan Pemrograman Web</p>
+			<p>Tita Wijayanti - 1941720053</p>
+			<div>Media Sosial, klik dibawah</div>
+			<div class="link">
+				<ul>
+					<li><a href="https://instagram.com/titaw_?igshid=1e1hzqd9vo6ju"><i width="20" class="fab fa-instagram-square"></i></a></li>
+					<li><a href="https://m.facebook.com/tita.wijayanti.7?pn_ref=friends_search"><i class="fab fa-facebook-square"></i></a></li>
+					<li><a href="https://wijayantitita094@gmail.com"><i class="fas fa-envelope-square"></i></a></li>
+				</ul>
+			</div>
+		</div>
+	<div id="gambar">
+		<h2 align="center">Pengaturan Gambar pada Bootstrap</h2>
+		<div class="row row-cols-1">
+			<div class="col">
+				<img src="gunung.jfif" class="rounded" alt="gambar round">
+				<img src="gunung.jfif" class="rounded-circle" alt="gambar circle">
+				<img src="gunung.jfif" class="img-thumbnail" alt="gambar thumbnail">
+				<img src="gunung.jfif" class="img-fluid" alt="gambar thumbnail">
+			</div>
+			<div class="col">
+				<div>
+					<h2 align="center">Gambar terletak ditengah</h2>
+					<img src="gunung.jfif" class="rounded mx-auto d-block" alt="gambar round">
+				</div>
+				<div>
+					<img src="gunung.jfif" class="rounded-circle mx-auto d-block" alt="gambar circle">
+				</div>
+				<div>
+					<img src="gunung.jfif" class="img-thumbnail mx-auto d-block" alt="gambar thumbnail">
+				</div>
+				<div>
+					<img src="gunung.jfif" class="img-fluid mx-auto d-block" alt="gambar thumbnail"><br><br>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="biodata" id="biodata">
+		<p align="center"><strong>Biodata Saya</strong></p>
+		<table align="center" border="1" cellspacing="0" cellpadding="5">
+		<tr align="center" bgcolor="#CC6600">
+			<br>
+			<td width="425" height="30">Data Diri</td>
+			<td width="425">Keterangan</td>
+			<td width="425">Foto</td>
+		</tr>
+		<tr>
+			<td >Nama Lengkap</td>
+			<td>Tita Wijayanti</td>
+			<td rowspan="10" align="center"><img src="me.jpg" width="350" height="500"></td>
+		</tr>
+		<tr>
+			<td>Kelas</td>
+			<td>TI-2C</td>
+		</tr>
+		<tr>
+			<td>NIM</td>
+			<td>1941720053</td>
+		</tr>
+		<tr>
+			<td>Jurusan</td>
+			<td>Teknologi Informasi</td>
+		</tr>
+		<tr>
+			<td>Prodi</td>
+			<td>D-IV Teknik Informatika</td>
+		</tr>
+		<tr>
+			<td>Jenis Kelamin</td>
+			<td>Perempuan</td>
+		</tr>
+		<tr>
+			<td>Tempat, Tanggal Lahir</td>
+			<td>Pasuruan, 20 Januari 2001</td>
+		</tr>
+		<tr>
+			<td>Alamat</td>
+			<td>Dsn. Kucur Ds. Sumberrejo Kec. Purwosari Kab. Pasuruan</td>
+		</tr>
+	</table>
+	</div>
+</body>
+</html>
